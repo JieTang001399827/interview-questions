@@ -89,9 +89,11 @@ System.out.println(c.toString());
 
 ### 2.7 创建对象的两种方法
 ***Class 对象的 newInstance()***
+
 1. 使用 Class 对象的newInstance()方法来创建该 Class对象对应类的实例，但是这种方法要求该 Class 对象对应的类有默认的空构造器。
 
 ***调用 Constructor 对象的 newInstance()***
+
 2. 先使用 Class 对象获取指定的 Constructor 对象，再调用 Constructor 对象的 newInstance()方法来创建 Class 对象对应类的实例,通过这种方法可以选定构造方法创建实例。
 
 ```java
